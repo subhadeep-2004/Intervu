@@ -9,7 +9,7 @@ import InterviewPage1 from "./dashboard/interview/InterviewPage1";
 
 import Feedback from "./dashboard/interview/Feedback";
 import Upgrade from "./dashboard/component/Upgrade";
-
+ 
 // function CenteredAuthPage({ type }) {
 
 
