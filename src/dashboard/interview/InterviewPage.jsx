@@ -1073,13 +1073,13 @@ function InterviewPage() {
                   </Button>
                 </Stack>
 
-                <Button
+                {/* <Button
                   variant="outlined"
                   onClick={showAnswers}
                   sx={{ borderRadius: 4, px: 4 }}
                 >
                   Show Answers
-                </Button>
+                </Button> */}
               </Stack>
             </Grid>
           </Grid>
