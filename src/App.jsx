@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { SignIn, SignUp, SignedIn, SignedOut } from "@clerk/clerk-react";
-import Layout from './dashboard/layout';
+import Layout from './dashboard/Layout';
 import { Box, Grid, Paper } from '@mui/material';
 import './App.css'
 import InterviewPage from './dashboard/interview/InterviewPage';
