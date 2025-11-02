@@ -715,12 +715,12 @@ import { useUser } from "@clerk/clerk-react";
 
 
 
-const api = import.meta.env.VITE_GEMINI_API;
+const api = "AIzaSyDmSAM_X1T05QsHv_z6QqNEfLYL1hkyaqg";
 
 const genAI = new GoogleGenerativeAI(api);
 
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
+  model: "gemini-2.5-flash",
   generationConfig: {
     temperature: 1.2,
     topK: 40,

@@ -75,7 +75,7 @@ const Welcome = () => {
   const navigate = useNavigate();
   const { user, isLoaded } = useUser();
 
-  const api = import.meta.env.VITE_GEMINI_API
+  const api = "AIzaSyDmSAM_X1T05QsHv_z6QqNEfLYL1hkyaqg"
 
 
   const{ currentInterview, setCurrentInterview } = React.useContext(InterviewContext);
@@ -154,7 +154,7 @@ const Welcome = () => {
 
   const model = genAI.getGenerativeModel(
     {
-      model: "gemini-1.5-flash",
+      model: "gemini-2.5-flash",
 
 
       generationConfig: {

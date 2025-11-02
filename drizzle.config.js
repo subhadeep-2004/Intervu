@@ -10,6 +10,6 @@ export default defineConfig({
   out: "./migrations",
   dialect: "postgresql",
   dbCredentials: {
-    url: process.env.VITE_DATABASE_URL,
+    url: "postgresql://Intervu_owner:npg_a5bVEA3ThlvF@ep-falling-dawn-a4jczrc6-pooler.us-east-1.aws.neon.tech/Intervu?sslmode=require",
   },
 });
